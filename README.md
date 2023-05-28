@@ -4,20 +4,19 @@
 http://kubeasy.com
 
 ### 测试账号请扫描二维码进群获取（如果想要开发一个类似的平台，也可以扫描下方二维码）
-![code]("./images/contact.png" "联系我们")
-
+![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114051119-285091697.png)
 ### 平台相关截图
 #### 登录页
-![login]("./images/login.png" "登录")
+![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114113524-1891694505.png)
 
 #### 首页
-![index]("./images/index.png" "首页")
+![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114123121-649789755.png)
 
 #### 跨集群资源复制
-![copy]("./images/copy.png" "copy")
+![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114132874-1479426454.png)
 
 #### 资源创建
-![create]("./images/create.png" "create")
+![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114142132-1837575048.png)
 
 #### 拓扑图
-![topology]("./images/topology.png" "topology")
+![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114149836-1765940398.png)
