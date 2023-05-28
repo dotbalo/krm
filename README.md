@@ -1,2 +1,2 @@
-# krm
-K8s多集群资源管理平台/ Kubernetes Resource Management Platform
+# 更简洁、更好用、更完善
+## 项目正在完善中，即将上线...
