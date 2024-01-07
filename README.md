@@ -1,7 +1,7 @@
 # 更简洁、更好用、更完善
 ## 项目正在完善中，即将上线...
 ### 项目演示地址
-[https://www.kubeasy.com](https://www.kubeasy.com/)
+[http://demo.kubeasy.com](http://demo.kubeasy.com/)
 
 ### 测试账号请从下面联系方式获取，进群后联系宽哥（如果想要开发一个类似的平台，也可以进群了解）
 ![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230529103338530-1334783137.png)
