@@ -3,7 +3,7 @@ KRM是一个Kubernetes多集群资源管理平台，基于管理Kubernetes的资
 可以管理Kubernetes的Namespace、Deployment、DaemonSet、StatefulSet、Service、Ingress、Pods、Nodes、CronJob等。
 
 KRM主要实现的是使用图形化界面管理所有的Kubernetes的资源，降低Kubernetes的复杂度。
-同时具备了一些常用的功能，比如跨集群资源复制、一键项目迁移、图形化资源编辑、资源一键回滚及更新、多集群资源统计等，
+同时具备了一些常用的功能，比如跨集群资源复制、一键项目迁移、图形化资源编辑、资源一键回滚及更新、多集群资源统计等。
 ### 项目演示地址
 [http://demo.kubeasy.com](http://demo.kubeasy.com/)
 
