@@ -186,6 +186,7 @@ EOF
 部署成功后，通过kubectl get svc -n krm查看krm-frontend的Service的NodePort，之后通过任意一台Kubernetes工作节点的IP:NodePort即可访问KRM
 
 默认用户名密码：admin / admin
+`用户名密码请在后端的USERNAME/PASSWORD变量中更改，注意更改的值为用户名密码的大写的32位MD5值`
 
 ## 配置域名
 如果集群中有Ingress或者其它网关服务，可以自行配置访问域名，比如使用ingress-nginx
