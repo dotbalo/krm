@@ -211,3 +211,6 @@ spec:
 ````
 
 ## 添加管理集群
+点击集群管理--添加，之后添加集群信息即可
+
+![image](https://github.com/dotbalo/krm/assets/25141522/00e48c89-6847-4b76-97f4-dc1b4b049ea9)
