@@ -4,11 +4,13 @@ KRM采用前后端分离架构，前端使用Vue实现，后端使用Go实现。
 KRM安装时需要把服务安装到Kubernetes集群当中，之后可以在KRM中添加被管理的集群，所以要求KRM所在的集群需要和其它被管理的集群的APIServer能够通信，其它无要求，安装无侵入。
 
 ## 服务部署
-在安装KRM的集群中创建Namespace，并授权
+在安装KRM的集群中创建Namespace，并授权 `注意: 下述步骤将KRM安装到了krm命名空间，如果需要更改Namespace，需要把下面步骤所有关于Namespace的地方更改为自己的Namespace，推荐不更改Namespace`
 ````
 kubectl create ns krm
 kubectl create sa krm-backend -n krm
 kubectl create rolebinding krm-backend --clusterrole=edit --serviceaccount=krm:krm-backend --namespace=krm
+kubectl create clusterrole namespace-creater --verb=create --resource=namespaces
+kubectl create rolebinding krm-backend-ns-creater --clusterrole=namespace-creater --serviceaccount=krm:krm-backend --namespace=krm
 ````
 部署后端服务
 ````
@@ -212,6 +214,6 @@ spec:
 ````
 
 ## 添加管理集群
-点击集群管理--添加，之后添加集群信息即可
+点击集群管理--添加，之后添加集群信息即可，添加集群后，就可以管理集群中的资源。
 
 ![image](https://github.com/dotbalo/krm/assets/25141522/00e48c89-6847-4b76-97f4-dc1b4b049ea9)
