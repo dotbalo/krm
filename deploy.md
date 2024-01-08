@@ -69,7 +69,7 @@ spec:
           value: 21232F297A57A5A743894A0E4A801FC3
         - name: "IN_CLUSTER"
           value: "true"
-        image: registry.cn-beijing.aliyuncs.com/dotbalo/krm-backend:v0.0.4
+        image: registry.cn-beijing.aliyuncs.com/dotbalo/krm-backend:v0.0.5
         lifecycle: {}
         livenessProbe:
           failureThreshold: 2
