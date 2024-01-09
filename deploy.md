@@ -10,7 +10,7 @@ kubectl create ns krm
 kubectl create sa krm-backend -n krm
 kubectl create rolebinding krm-backend --clusterrole=edit --serviceaccount=krm:krm-backend --namespace=krm
 kubectl create clusterrole namespace-creater --verb=create --resource=namespaces
-kubectl create rolebinding krm-backend-ns-creater --clusterrole=namespace-creater --serviceaccount=krm:krm-backend --namespace=krm
+kubectl create clusterrolebinding krm-backend-ns-creater --clusterrole=namespace-creater --serviceaccount=krm:krm-backend --namespace=krm
 ````
 部署后端服务
 ````
