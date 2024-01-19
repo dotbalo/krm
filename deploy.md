@@ -71,7 +71,7 @@ spec:
           value: 21232F297A57A5A743894A0E4A801FC3
         - name: "IN_CLUSTER"
           value: "true"
-        image: registry.cn-beijing.aliyuncs.com/dotbalo/krm-backend:v0.0.5
+        image: registry.cn-beijing.aliyuncs.com/dotbalo/krm-backend:latest
         lifecycle: {}
         livenessProbe:
           failureThreshold: 2
@@ -152,7 +152,7 @@ spec:
           value: Asia/Shanghai
         - name: LANG
           value: C.UTF-8
-        image: registry.cn-beijing.aliyuncs.com/dotbalo/krm-frontend:v0.0.4
+        image: registry.cn-beijing.aliyuncs.com/dotbalo/krm-frontend:latest
         lifecycle: {}
         livenessProbe:
           failureThreshold: 2
