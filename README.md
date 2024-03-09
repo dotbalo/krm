@@ -7,6 +7,12 @@ KRM主要实现的是使用图形化界面管理所有的Kubernetes的资源，�
 ### 项目演示地址
 [http://demo.kubeasy.com](http://demo.kubeasy.com/)
 
+### 免费视频教程
+[https://www.bilibili.com/video/BV1Hx421C7nA/](https://www.bilibili.com/video/BV1Hx421C7nA/)
+
+
+[https://edu.51cto.com/course/35856.html](https://edu.51cto.com/course/35856.html)
+
 ### 项目部署
 如果想要使用KRM管理自己的集群，可以参考如下文档进行安装
 [部署文档](https://github.com/dotbalo/krm/blob/main/deploy.md)
