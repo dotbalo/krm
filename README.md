@@ -13,9 +13,16 @@ KRM主要实现的是使用图形化界面管理所有的Kubernetes的资源，�
 
 [https://edu.51cto.com/course/35856.html](https://edu.51cto.com/course/35856.html)
 
-### 项目部署
-如果想要使用KRM管理自己的集群，可以参考如下文档进行安装
-[部署文档](https://github.com/dotbalo/krm/blob/main/deploy.md)
+### 快速部署
+如果想要使用KRM管理自己的集群，可以参考如下步骤进行安装：
+````
+# 需要自行安装git工具，比如 yum install git或者apt-get install git
+git clone https://gitee.com/dukuan/k8s-ha-install.git
+cd k8s-ha-install
+kubectl  create -f krm.yaml
+````
+也可以采用手动部署的方式，用来做更加详细的配置
+[手动部署文档](https://github.com/dotbalo/krm/blob/main/deploy.md)
 
 ### 测试账号请从下面联系方式获取，进群后联系宽哥（如果想要开发一个类似的平台，也可以进群了解）
 ![image](https://github.com/dotbalo/krm/assets/25141522/d92d9eda-478b-49b6-9e5b-c4a5ef7d7f7a)
