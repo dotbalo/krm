@@ -1,9 +1,9 @@
 # 更简洁、更好用、更完善
 KRM是一个Kubernetes多集群资源管理平台，基于管理Kubernetes的资源开发，
-可以管理Kubernetes的Namespace、Deployment、DaemonSet、StatefulSet、Service、Ingress、Pods、Nodes、CronJob等。
+可以管理Kubernetes的Namespace、Deployment、DaemonSet、StatefulSet、Service、Ingress、Pods、Nodes、CronJob、Velero等。
 
 KRM主要实现的是使用图形化界面管理所有的Kubernetes的资源，降低Kubernetes的复杂度。
-同时具备了一些常用的功能，比如跨集群资源复制、一键项目迁移、图形化资源编辑、资源一键回滚及更新、多集群资源统计等。
+同时具备了一些常用的功能，比如跨集群资源复制、一键项目迁移、图形化资源编辑、资源一键回滚及更新、多集群资源统计、可视化集群备份和还原等。
 ### 项目演示地址
 [http://demo.kubeasy.com](http://demo.kubeasy.com/)
 用户名密码：dukuan / Q_Q727585266
@@ -26,6 +26,11 @@ kubectl  create -f krm.yaml
 ````
 也可以采用手动部署的方式，用来做更加详细的配置
 [手动部署文档](https://github.com/dotbalo/krm/blob/main/deploy.md)
+### 版本更新
+````
+如果部署的KRM版本是latest，直接重新部署即可完成升级（也可以直接删除KRM的前后端Pod即可完成更新）。
+如果不是latest版本， 直接把KRM的Deployment的镜像版本均改成latest即可。
+````
 
 ### 如果想要开发一个类似的平台和有其他问题，可以进群了解
 ![image](https://github.com/dotbalo/krm/assets/25141522/d92d9eda-478b-49b6-9e5b-c4a5ef7d7f7a)
