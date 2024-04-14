@@ -37,16 +37,31 @@ kubectl  create -f krm.yaml
 
 ### 平台相关截图
 #### 登录页
-![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114113524-1891694505.png)
+![登录页](https://github.com/dotbalo/krm/assets/25141522/adaf1ec2-6046-45d8-81ee-e49476d4e91b)
 
 #### 首页
-![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114123121-649789755.png)
+![首页](https://github.com/dotbalo/krm/assets/25141522/cc773147-06a6-4c03-b5d6-3fb77534d121)
+
 
 #### 跨集群资源复制
-![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114132874-1479426454.png)
+![image](https://github.com/dotbalo/krm/assets/25141522/49c00391-e97c-4cb3-82ed-c6baa8a78172)
+
 
 #### 资源创建
-![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114142132-1837575048.png)
+![image](https://github.com/dotbalo/krm/assets/25141522/f74b1350-2adb-4e9f-a52a-82b3e62d1a15)
+
 
 #### 拓扑图
-![](https://img2023.cnblogs.com/blog/1095387/202305/1095387-20230528114149836-1765940398.png)
+![image](https://github.com/dotbalo/krm/assets/25141522/7180baf5-2f06-4bda-b1a8-c60986609c29)
+
+#### 备份管理
+![image](https://github.com/dotbalo/krm/assets/25141522/86587673-0395-4476-b560-e626226a170b)
+
+#### 节点管理
+![image](https://github.com/dotbalo/krm/assets/25141522/68bef620-bf91-4be9-889a-6a34febd9d20)
+
+#### Pod管理 支持下线功能
+![image](https://github.com/dotbalo/krm/assets/25141522/0e72b4a0-49b1-40e5-a0de-23570c86dfab)
+
+#### 调度资源管理 一键式操作
+![image](https://github.com/dotbalo/krm/assets/25141522/bcf862dc-17b8-4f34-aec4-5e426894363e)
